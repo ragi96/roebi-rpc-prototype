@@ -21,7 +21,7 @@ jobs:
         # The key of the SonarQube project
         sonarProjectKey: ragi96_roebi-rpc-prototype
         # The name of the SonarQube project
-        sonarProjectName:  ragi96_roebi-rpc-prototype
+        sonarProjectName: ragi96_roebi-rpc-prototype
         sonarHostname: ${{ secrets.SONAR_HOST_URL }}
         # Optional command arguments to dotnet build
         dotnetBuildArguments: ./
