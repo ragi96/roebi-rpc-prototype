@@ -23,9 +23,6 @@ jobs:
         # The name of the SonarQube project
         sonarProjectName: ragi96_roebi-rpc-prototype
         sonarHostname: ${{ secrets.SONAR_HOST_URL }}
-        # Optional command arguments to dotnet build
-        dotnetBuildArguments: ./
-        dotnetTestArguments: ./
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
