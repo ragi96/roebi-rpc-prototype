@@ -29,7 +29,7 @@ try
          }
 
          Tcpclient.Close();
-         Console.WriteLine("Restart? [y/n]");
+         Console.WriteLine("\n\rRestart? [y/n]");
         ConsoleKeyInfo ckey = Console.ReadKey();
 
         if (ckey.Key.ToString() == "y")
